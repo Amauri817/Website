@@ -4,11 +4,26 @@ body {
   margin: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
+  padding-bottom: 15px;
 }
 
 .container {
-  height: 100vh;
-  width: 100%;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.home {
+  border-bottom: 1px solid white;
 }
 
 nav {
@@ -16,21 +31,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
   padding-top: 15px;
   padding-left: 8%;
   padding-right: 8%;
-}
-
-.Logo {
-  color: white;
-  font-size: 25px;
-  letter-spacing: 1px;
-  cursor: pointer;
-}
-
-span {
-  color: rgb(116, 1, 1);
-  font-size: 20px;
 }
 
 nav ul li {
@@ -44,9 +48,26 @@ nav ul li a{
   text-decoration: none;
   font-weight: bold;
   text-transform: capitalize;
+  transform: all .5s ease;
 }
 
 nav ul li a:hover{
-  color: red;
+  color: black;
   transition: .4s;
+}
+
+.Logo {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #40d7bc;
+  font-size: 20px;
+}
+
+h3 {
+  color: #0b90ce;
 }
