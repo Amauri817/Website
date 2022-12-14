@@ -29,16 +29,13 @@
       <h3>Sonic Run System</h3>
       <p>This is a demo game that I created using Unreal Engine 5 to showcase some sonic mechanics I made.
       </p>
+      <video controls autoplay loop muted>
+        <source src="Pictures/Start2 - Unreal Editor 2022-12-06 13-50-11.mp4" type="video/mp4">
+        <source src="Pictures/Start2 - Unreal Editor 2022-12-06 13-50-11.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
     </section>
-    <div class="row">
-      <div class="col-md">
-        <video controls autoplay loop muted>
-          <source src="Pictures/Start2 - Unreal Editor 2022-12-06 13-50-11.mp4" type="video/mp4">
-          <source src="Pictures/Start2 - Unreal Editor 2022-12-06 13-50-11.mp4" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
+
     <br> <strong>Role: </strong> Technical Designer
     <br> <strong>Project Duration: </strong> 4 Weeks
     <br> <strong>Engine: </strong> Unreal Engine 5
@@ -52,51 +49,70 @@
       <li>Created a working blueprint system for the character.</li>
       <li>Created a working spline system for the rail grinding.</li>
     </ul>
-
-    <p>The Movement System<br>
-      Takes the input from a set walk speed and multiplies it by a set rate to increase as the character moves.
-      <img src="Pictures/Movement.PNG" alt="Blueprint">
+      <p><u>The Movement System</u><br>
+        <div class="row">
+          <div class="col-md">
+            Takes the input from a set walk speed and multiplies it by a set rate to increase as the character moves.
+            <img src="Pictures/Movement.PNG" alt="Blueprint">
+          </div>
+          <div class="col-md">
+            <video controls autoplay loop muted>
+              <source src="Pictures/Walking.mp4" type="video/mp4">
+              <source src="Pictures/Walking.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </p>
+  
+      <p><u>Speed Boost</u><br>
+        <div class="row">
+          <div class="col-md">
+            Similar to the movement system, the sprint uses the same values, and with camera work, and effects enhance the sprint.
+            <img src="Pictures/Sprints.PNG" alt="Sonic Run Blueprint">
+          </div>
+          <div class="col-md">
+            <video controls autoplay loop muted>
+              <source src="Pictures/Sprinting.mp4" type="video/mp4">
+              <source src="Pictures/Sprinting.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </p>
+  
+      <p><u>Rail Grind Spline</u><br>
+            There were multiple steps when it came to creating the spline system for the rail grind.
+            To begin I had to create a working spline system that allow an object to follow the spline.<br>
+            <img src="Pictures/spline 4.PNG" alt="Spline">
+          </p>
+          <p>
+            Next I had to create a system that allowed the character to interact with said spline.<br>
+            <img src="Pictures/spline3.PNG" alt="Spline">
+          </p>
+          <p>
+            And finally I had to check the conditions to make sure that the player is on the rail and that they were able to exit the rail.<br>
+            <img src="Pictures/spline2.PNG" alt="Spline">
+          </p>
       <video controls autoplay loop muted>
-        <source src="Pictures/MovementVid.mp4" type="video/mp4">
-        <source src="Pictures/MovementVid.mp4" type="video/ogg">
+        <source src="Pictures/GrindingR.mp4" type="video/mp4">
+        <source src="Pictures/GrindingR.mp4" type="video/ogg">
         Your browser does not support the video tag.
       </video>
-    </p>
+  
+      <p><u><em>Inspiration:</em></u><br>Sonic Frontiers</p>
+      <p><u><em>Map Credit to:</em></u><br>Unreal Engine - Stylized Asian Village</p>
+      <p><u><em>Other Asset Credit:</em><br></u>Skin, Particle Effects, and Animations: <a href="https://www.youtube.com/@Robowil" target="_blank">@Robowil</a></p>    
 
-    <p>Speed Boost<br>
-      Similar to the movement system, the sprint uses the same values, and with camera work, and effects enhance the sprint.
-      <img src="Pictures/Sprint.PNG" alt="Sonic Run Blueprint">
-      <video controls autoplay loop muted>
-        <source src="Pictures/Speed Boost.mp4" type="video/mp4">
-        <source src="Pictures/Speed Boost.mp4" type="video/ogg">
-        Your browser does not support the video tag.
-      </video>
-    </p>
-
-    <p>Rail Grind Spline<br>
-      There were multiple steps when it came to creating the spline system for the rail grind.
-      To begin I had to create a working spline system that allow an object to follow the spline.
-      <img src="Pictures/spline 4.PNG" alt="Spline">
-      Next I had to create a system that allowed the character to interact with said spline.
-      <img src="Pictures/spline3.PNG" alt="Spline">
-      And finally I had to check the conditions to make sure that the player is on the rail and that they were able to exit the rail.
-      <img src="Pictures/spline2.PNG" alt="Spline">
-      <video controls autoplay loop muted>
-        <source src="Pictures/RailGrind.mp4" type="video/mp4">
-        <source src="Pictures/RailGrind.mp4" type="video/ogg">
-        Your browser does not support the video tag.
-      </video>
-    </p>
-
-    <p><u><em>Inspiration:</em></u><br>Sonic Frontiers
- </p>
-
-    <p><u><em>Map Credit to:</em></u><br>Unreal Engine - Stylized Asian Village</p>
-    <p><u><em>Other Asset Credit:</em><br></u>Skin and Particle Effects: <a href="https://www.youtube.com/@Robowil" target="_blank">@Robowil</a></p>
-  </div>
+      <div class="popup-img">
+        <span>&times;</span>
+        <img src="Pictures/Movement.PNG" alt="Spline">
+      </div>
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="java.js"></script>
 </body>
 </html>
