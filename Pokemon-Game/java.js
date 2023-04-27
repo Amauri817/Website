@@ -15,7 +15,7 @@ class Boundary {
   constructor ({ position }) {
     this.position = position
     this.width = 48
-    this.height = 48
+    this.height = 488
   }
 
   draw () {
