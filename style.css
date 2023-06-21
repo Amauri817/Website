@@ -43,7 +43,7 @@ img {
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  border: 2px solid black;
+  border: 2.5px solid black;
   width: 400px;
   height: 300px;
 }
