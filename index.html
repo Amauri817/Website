@@ -22,20 +22,12 @@
 
   <div class="content">
     <article class="left">
-      <a href="public/Programming/index.html"><h1>Programming</h1></a>
+      <a href="public/Programming/./"><h1>Programming</h1></a>
     </article>
     <article class="right">
-      <a href="public/Designer/index.html"><h1>Technical Design</h1></a>
+      <a href="public/Designer/./"><h1>Technical Design</h1></a>
     </article>
   </div>
-  
-  <script>
-    window.onload = function() {
-      if (window.location.pathname.endsWith('.html')) {
-        let newPath = window.location.pathname.replace('.html', '');
-        window.history.replaceState({}, document.title, newPath);
-      }
-    };
-    </script>
+
 </body>
 </html>
