@@ -28,5 +28,14 @@
   <div class="container" style="color: red;">
     <h1>STILL WORKING ON IT... GO BACK</h1>
   </div>
+
+  <script>
+  window.onload = function() {
+    if (window.location.pathname.endsWith('.html')) {
+      let newPath = window.location.pathname.replace('.html', '');
+      window.history.replaceState({}, document.title, newPath);
+    }
+  };
+  </script>
 </body>
 </html>

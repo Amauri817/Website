@@ -8,3 +8,10 @@ document.querySelectorAll('.container img').forEach(img => {
 document.querySelector('.popup-img span').onclick = () => {
   document.querySelector('.popup-img').style.display = 'none'
 }
+
+window.onload = function() {
+  if (window.location.pathname.endsWith('.html')) {
+    let newPath = window.location.pathname.replace('.html', '');
+    window.history.replaceState({}, document.title, newPath);
+  }
+};
