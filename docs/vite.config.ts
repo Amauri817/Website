@@ -6,7 +6,6 @@ export default defineConfig({
   assetsInclude: ['**/*.PNG', '**/*.png'], // Add this line to include PNG files
   plugins: [react()],
   server: {
-    port: 3000,
     open: true,
   },
 });
