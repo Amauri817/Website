@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  assetsInclude: ['**/*.PNG', '**/*.png'], // Add this line to include PNG files
   plugins: [react()],
-  assetsInclude: ['**/*.PNG', '**/*.png'] // Add this line to include PNG files
-})
+  server: {
+    port: 3000,
+    open: true,
+  },
+});
