@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Vit from './pages/vit';
-import Rec from './pages/reac';
+import Design from './pages/designPage';
+import Program from './pages/programPage';
+import './App.css'
 
 const App: React.FC = () => {
 
@@ -14,8 +14,8 @@ const App: React.FC = () => {
           {/* The route for the home page */}
           <Route path="/" element={<Home />} />
           {/* Other routes */}
-          <Route path="/reac" element={<Vit />} />
-          <Route path="/vit" element={<Rec />} />
+          <Route path="/designPage" element={<Design />} />
+          <Route path="/programPage" element={<Program />} />
         </Routes>
       </Router>
     </>

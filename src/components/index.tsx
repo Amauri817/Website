@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import reactLogo from '../assets/react.svg'
-// import viteLogo from '/vite.svg'
+import viteLogo from '/vite.svg'
 import Image1 from '../assets/BusCard.png'
 
 const Indexs: React.FC = () => {
@@ -10,9 +10,9 @@ const Indexs: React.FC = () => {
   return (
     <>
       <div>
-        {/* <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a> */}
+        </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
