@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import viteLogo from '../../public/vite.svg'
+// import viteLogo from '/vite.svg'
 import Image1 from '../assets/BusCard.png'
 
 const Ret: React.FC = () => {
@@ -9,9 +9,9 @@ const Ret: React.FC = () => {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
+        </a> */}
         <a href="https://youtube.com" target="_blank">
           <img src={Image1} className="logo react" alt="React logo" />
         </a>
