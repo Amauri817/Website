@@ -23,9 +23,9 @@ const projAdd: React.FC = () => {
                     </div>
                     <div className="col-md">
                         <span>My Website</span>
-                        <a href="http://www.amauribrown.com" target="blank"><img src={Image1} alt="Website Picture" /></a>
+                        <a href="#about" target="blank"><img src={Image1} alt="Website Picture" /></a>
                         <p style={{textAlign:'left', paddingLeft:'10px'}}>
-                            - This is my portfolio website, built React typescript. I made this website with the purpose to displaying my ever improving technical skills.
+                            - This is my portfolio website, built with React typescript. I made this website with the purpose to displaying my ever improving technical skills.
                             I plan on continuously update this website as I tackle new projects and jobs.
                         </p>
                     </div>
