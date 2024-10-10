@@ -3,7 +3,6 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home'
 import Design from './pages/designPage';
 import Program from './pages/programPage';
-import './App.css'
 
 const App: React.FC = () => {
 

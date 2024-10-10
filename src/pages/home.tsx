@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import '../Home.css'
 
 const Home: React.FC = () => {
     
@@ -22,7 +23,7 @@ const Home: React.FC = () => {
             <h1><Link to="/programPage">Programming</Link></h1>
             </article>
             <article className="right">
-                <h1><Link to="/designPage">Technical Designer</Link></h1>
+                <h1><Link to="/designPage">Technical Design</Link></h1>
             </article>
           </div>
         </body>
