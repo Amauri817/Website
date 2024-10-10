@@ -3,7 +3,7 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '../../public/vite.svg'
 import Image1 from '../assets/BusCard.png'
 
-const App: React.FC = () => {
+const Home: React.FC = () => {
   const [count, setCount] = useState(0)
 
   return (
@@ -35,4 +35,4 @@ const App: React.FC = () => {
   )
 }
 
-export default App
+export default Home
