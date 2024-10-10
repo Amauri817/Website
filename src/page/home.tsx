@@ -3,7 +3,9 @@ import Indexs from "../components/designD";
 const Home: React.FC = () => {
   
     return (
-        <Indexs />
+        <div>
+            <Indexs /> 
+        </div>
     )
   }
 
