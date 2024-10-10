@@ -1,9 +1,14 @@
 import Home from './page/home'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 
-function App() {
+const App: React.FC = () => {
   return (
-    <Home />
+    <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  </Router>
   )
 }
 
