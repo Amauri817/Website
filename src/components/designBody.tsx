@@ -17,7 +17,7 @@ const Dcontent: React.FC = () => {
                   </p>
               </section>
               <h4 style={{textAlign: 'center', borderBottom: '1px solid white', paddingBottom: '5px', paddingTop: '5px'}}>Personal Projects</h4>
-              <Link to="/sonic"><h5>Sonic Inspired Game</h5></Link>
+              <Link to="/sonicContent"><h5>Sonic Inspired Game</h5></Link>
               <div className="row" style={{borderBottom:'1px solid white'}}>
                   <div className="col-md">
                   <p>A fun game I made to better understand the sonic mechanics within its video games. The player runs around grinding on rails.
@@ -31,11 +31,11 @@ const Dcontent: React.FC = () => {
                   <strong>Team Size: </strong> Solo
                   </div>
                   <div className="col-md" style={{paddingBottom:'10px'}}>
-                      <a href="/sonic"><img src={Image1} alt="Sonic" /></a>
+                    <Link to="/sonicContent"><img src={Image1} alt="Sonic" /></Link>
                   </div>
               </div>
   
-              <Link to="/portal-gun"><h5>Portal Gun Game</h5></Link>
+              <Link to="/portalContent"><h5>Portal Gun Game</h5></Link>
               <div className="row" style={{borderBottom:'1px solid white'}}>
                   <div className="col-md">
                   <p>A game I made to help understand the teleporting system in the game "Portal". It is to portray how a successful portal system works.
@@ -50,11 +50,11 @@ const Dcontent: React.FC = () => {
                   <strong>Team Size: </strong> Solo
                   </div>
                   <div className="col-md" style={{paddingBottom:'10px'}}>
-                      <a href="/portal-gun"><img src={Image2} alt="Map" /></a>       
+                    <Link to="/portalContent"><img src={Image2} alt="Map" /></Link>    
                   </div>
               </div>
   
-              <Link to="/inventory"><h5>Shop and Inventory Demo</h5></Link>
+              <Link to="/inventoryContent"><h5>Shop and Inventory Demo</h5></Link>
               <div className="row">
                   <div className="col-md">
                   <p>A demostration of a properly working inventory and shop system. Created to gain an understanding of the backends of a successful inventory, selling, and buying system.
@@ -68,7 +68,7 @@ const Dcontent: React.FC = () => {
                   <strong>Team Size: </strong> Solo
                   </div>
                   <div className="col-md" style={{paddingBottom:'10px'}}>
-                      <a href="/inventory"><img src={Image3} alt="Menu" /></a>
+                    <Link to="/inventoryContent"><img src={Image3} alt="Menu" /></Link>
                   </div>
               </div>
           </div>
