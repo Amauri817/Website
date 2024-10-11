@@ -3,6 +3,7 @@ import Image1 from '../assets/Amauri.jpg'
 import NavTab from "./navTab";
 
 const AboutBod: React.FC = () => {
+    
     return (
         <body>
             <div>

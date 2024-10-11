@@ -2,21 +2,19 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 import './navTabP.css'
 
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
 const NavTabP: React.FC = () => {
 
   return (
-      <div className='header'>
+      <div className='header' id='top'>
         <nav className='nas'>
-        <Link to="/program"><h2 className='Logo'> Amauri Brown <br/> <span>Programmer</span> </h2></Link>
+        <Link to="/programPage"><h2 className='Logo'> Amauri Brown <br/> <span>Programmer</span> </h2></Link>
           <ul>
-            <a href="#about"><li>About</li></a>
-            <a href="#skills"><li>Skills</li></a>
-            <a href="#projects"><li>Projects</li></a>
-            <a href="#certifications"><li>Certifications</li></a>
+            <Link to="#about"><li>About</li></Link>
+            <Link to="#skills"><li>Skills</li></Link>
+            <Link to="#projects"><li>Projects</li></Link>
+            <Link to="#certifications"><li>Certifications</li></Link>
             <a href="https://drive.google.com/file/d/1uohXkgqjCiM6POS0Nd8vquTuMrgUBHUC/view?usp=sharing" target='blank'><li>Resume</li></a>
-            <a href="#contact"><li>Contact</li></a>
+            <Link to="#contact"><li>Contact</li></Link>
           </ul>
           <Link to="/"><span>Back (☞ﾟヮﾟ)☞</span></Link>
         </nav>

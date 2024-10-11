@@ -8,11 +8,9 @@ const Pcontent: React.FC = () => {
                 <h3>
                     Welcome to my Portfolio!
                 </h3>
-
                 <p>
                 Hi, my name is Amauri Brown.  
                 </p>
-                
                 <p>
                     I’m a developer who excels at creating smooth, efficient web apps. 
                     I am equally familiar with the front-end and back-end of programming, knowledgable with full stack, and have experience with both client and server side data. 
