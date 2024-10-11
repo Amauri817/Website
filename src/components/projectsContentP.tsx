@@ -1,6 +1,6 @@
 import React from "react";
 import Image1 from '../assets/website.png'
-import Image2 from '../assets/buscard.png'
+import Image2 from '../assets/BusCard.png'
 
 const ProjectAdd: React.FC = () => {
     
