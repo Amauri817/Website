@@ -224,7 +224,7 @@ h3 {
   left: -250px; /* Initially hidden */
   width: 250px;
   height: 100vh;
-  background-color: #333;
+  background-color: #33333300;
   color: white;
   padding: 20px;
   transition: left 0.3s ease;
@@ -245,7 +245,7 @@ h3 {
 }
 
 .sidebar_items:hover {
-  color: gray;
+  color: rgb(0, 86, 214);
   transition: .4s;
 }
 
