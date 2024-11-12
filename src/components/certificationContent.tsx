@@ -7,7 +7,7 @@ const CertAdd: React.FC = () => {
             <div className="container">
                 <h3>Certificates</h3>
                 <h5 style={{textAlign:'center'}}>Michigan State University(Full-Stack Development)</h5>
-                <h1>Coming Soon(January 2024)</h1>
+                <h1>Coming Soon(January 2025)</h1>
             </div>
         </body>
 

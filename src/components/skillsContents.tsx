@@ -20,11 +20,12 @@ const Skills: React.FC = () => {
     { skill: "React", rating: 4 },
     { skill: "HTML", rating: 5 },
     { skill: "CSS", rating: 5 },
-    { skill: "APIs", rating: 2 },
+    { skill: "APIs", rating: 3 },
     { skill: "JavaScript", rating: 4 },
     { skill: "TypeScript", rating: 4 },
     { skill: "Node.js/Express", rating: 4 },
-    { skill: "SQL", rating: 3 }
+    { skill: "SQL", rating: 4 },
+    { skill: "MongoDB", rating: 3 }
   ];
 
   const otherSkills = [
