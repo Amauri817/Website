@@ -1,6 +1,7 @@
 import React from "react";
 import Image1 from '../assets/website.png'
 import Image2 from '../assets/BusCard.png'
+import Image3 from '../assets/KrazyKanban.png'
 
 const ProjectAdd: React.FC = () => {
     
@@ -15,7 +16,7 @@ const ProjectAdd: React.FC = () => {
 
                 <div className="row" style={{textAlign:'center', paddingBottom:'15px'}}>
                     <div className="col-md">
-                        <span>Business Card generator</span>
+                        <p><span>Business Card generator</span></p>
                         <a href="https://amauri817.github.io/Bis-Card-Gen/" target="blank"><img src={Image2} alt="Business Card Website Picture" /></a>
                         <p style={{textAlign:'left', paddingLeft:'10px'}}>
                             - This was my first project learning to work with responsive interfaces, understanding EventListeners, and implementing local
@@ -23,13 +24,23 @@ const ProjectAdd: React.FC = () => {
                         </p>
                     </div>
                     <div className="col-md">
-                        <span>My Website</span>
+                        <p><span>My Website</span></p>
                         <a href="#about" target="blank"><img src={Image1} alt="Website Picture" /></a>
                         <p style={{textAlign:'left', paddingLeft:'10px'}}>
                             - This is my portfolio website, built with React typescript. I made this website with the purpose to displaying my ever improving technical skills.
                             I plan on continuously update this website as I tackle new projects and jobs.
                         </p>
                     </div>
+                </div>
+                <div className="row" style={{textAlign:'center', paddingBottom:'15px'}}>
+                    <div className="col-md">
+                            <p><span>Login Page</span></p>
+                            <a href="https://thekrazykabanboardultra.onrender.com/" target="blank"><img src={Image3} alt="Image of a login page" /></a>
+                            <p style={{textAlign:'center', paddingLeft:'10px'}}>
+                                - This project was done using JWTs and a PSQL database. This showcases of my knowledge using bcrypt, securely storing client data for
+                                authenticated requests.
+                            </p>
+                        </div>
                 </div>
             </div>
         </body>

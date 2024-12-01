@@ -3,7 +3,7 @@ import React from "react";
 const CertAdd: React.FC = () => {
     
     return (
-        <body style={{paddingTop:'50px', marginTop:'100px'}} id="certifications">
+        <body style={{paddingTop:'500px'}} id="certifications">
             <div className="container">
                 <h3>Certificates</h3>
                 <h5 style={{textAlign:'center'}}>Michigan State University(Full-Stack Development)</h5>
