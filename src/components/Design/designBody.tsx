@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Image1 from '../assets/Sonic.png'
-import Image2 from '../assets/portpic2.png'
-import Image3 from '../assets/Inv.png'
+import Image1 from '../../assets/Sonic.png'
+import Image2 from '../../assets/portpic2.png'
+import Image3 from '../../assets/Inv.png'
 
 const Dcontent: React.FC = () => {
 

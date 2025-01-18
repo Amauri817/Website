@@ -1,5 +1,5 @@
 import React from "react";
-import Image1 from '../assets/Amauri.jpg'
+import Image1 from '../../assets/Amauri.jpg'
 import NavTab from "./navTab";
 
 const AboutBod: React.FC = () => {

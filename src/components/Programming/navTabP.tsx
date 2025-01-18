@@ -12,7 +12,7 @@ const NavTabP: React.FC = () => {
             <Link to="#about"><li>About</li></Link>
             <Link to="#skills"><li>Skills</li></Link>
             <Link to="#projects"><li>Projects</li></Link>
-            <Link to="#certifications"><li>Certificates</li></Link>
+            <Link to="#certifications"><li>Certificate</li></Link>
             <a href="https://drive.google.com/file/d/1uohXkgqjCiM6POS0Nd8vquTuMrgUBHUC/view?usp=sharing" target='blank'><li>Resume</li></a>
             <Link to="#contact"><li>Contact</li></Link>
           </ul>

@@ -1,8 +1,8 @@
 import React from "react";
 import NavTab from "./navTab";
-import Image1 from '../assets/portpic4.png'
-import Image2 from '../assets/portpic3.png'
-import Image3 from '../assets/Inv.png'
+import Image1 from '../../assets/portpic4.png'
+import Image2 from '../../assets/portpic3.png'
+import Image3 from '../../assets/Inv.png'
 import { Link } from "react-router-dom";
 
 const ProjectBod: React.FC = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import NavTab from "../components/navTab";
-import Dcontent from "../components/designBody";
+import NavTab from "../components/Design/navTab";
+import Dcontent from "../components/Design/designBody";
 
 const Design: React.FC = () => {
     return (

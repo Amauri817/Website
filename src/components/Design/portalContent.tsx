@@ -1,12 +1,12 @@
 import React from "react";
 import NavTab from "./navTab";
-import videoFile from '../assets/PortalDemo.mp4'
-import videoFile2 from '../assets/PortalShoot - Trim.mp4'
-import videoFile3 from '../assets/PortalReflection - Trim.mp4'
-import videoFile4 from '../assets/PortalTravel - Trim.mp4'
-import Image1 from '../assets/Photo1.png'
-import Image2 from '../assets/Photo2.png'
-import Image3 from '../assets/Photo4.png'
+import videoFile from '../../assets/PortalDemo.mp4'
+import videoFile2 from '../../assets/PortalShoot - Trim.mp4'
+import videoFile3 from '../../assets/PortalReflection - Trim.mp4'
+import videoFile4 from '../../assets/PortalTravel - Trim.mp4'
+import Image1 from '../../assets/Photo1.png'
+import Image2 from '../../assets/Photo2.png'
+import Image3 from '../../assets/Photo4.png'
 
 const PortalBod: React.FC = () => {
     return (

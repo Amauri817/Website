@@ -1,12 +1,12 @@
 import React from "react";
 import NavTab from "./navTab";
-import videoFile from '../assets/InventoryDemo.mp4'
-import videoFile2 from '../assets/ShopTrim2.mp4'
-import videoFile3 from '../assets/ShopTrim.mp4'
-import videoFile4 from '../assets/InventoryTrim.mp4'
-import Image1 from '../assets/Shopim.png'
-import Image2 from '../assets/shopps.png'
-import Image3 from '../assets/Shopupd.png'
+import videoFile from '../../assets/InventoryDemo.mp4'
+import videoFile2 from '../../assets/ShopTrim2.mp4'
+import videoFile3 from '../../assets/ShopTrim.mp4'
+import videoFile4 from '../../assets/InventoryTrim.mp4'
+import Image1 from '../../assets/Shopim.png'
+import Image2 from '../../assets/shopps.png'
+import Image3 from '../../assets/Shopupd.png'
 
 const InvBod: React.FC = () => {
 

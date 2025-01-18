@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
-import NavTabP from "../components/navTabP";
-import Pcontent from "../components/programBody";
-import AboutAdd from "../components/aboutContentP";
-import CertAdd from "../components/certificationContent";
-import FooterContent from "../components/footer";
-import ProjectAdd from "../components/projectsContentP";
-import ContactAdd from "../components/contactContentP";
-import Skills from "../components/skillsContents";
-import SideBar from "../components/sideTab";
+import NavTabP from "../components/Programming/navTabP";
+import Pcontent from "../components/Design/programBody";
+import AboutAdd from "../components/Programming/aboutContentP";
+import CertAdd from "../components/Programming/certificationContent";
+import FooterContent from "../components/Design/footer";
+import ProjectAdd from "../components/Programming/projectsContentP";
+import ContactAdd from "../components/Programming/contactContentP";
+import Skills from "../components/Programming/skillsContents";
+import SideBar from "../components/Programming/sideTab";
 
 const Program: React.FC = () => {
     

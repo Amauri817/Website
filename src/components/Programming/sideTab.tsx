@@ -50,7 +50,7 @@ const SideBar: React.FC = () => {
 
       <Link to='#certifications' >
         <div className="sidebar_items">
-            Certificates
+            Certificate
         </div>
       </Link>
 

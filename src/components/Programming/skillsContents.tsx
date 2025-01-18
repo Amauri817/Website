@@ -25,7 +25,7 @@ const Skills: React.FC = () => {
     { skill: "TypeScript", rating: 4 },
     { skill: "Node.js/Express", rating: 4 },
     { skill: "SQL", rating: 4 },
-    { skill: "MongoDB", rating: 3 }
+    { skill: "MongoDB", rating: 4 }
   ];
 
   const otherSkills = [
