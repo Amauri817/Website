@@ -17,7 +17,7 @@ const ProjectAdd: React.FC = () => {
 
                 <div className="row" style={{textAlign:'center', paddingBottom:'15px'}}>
                     <div className="col-md">
-                        <p><span>Business Card generator</span>
+                        <p><span>Business Card generator </span>
                         <a href="https://github.com/Amauri817/Bis-Card-Gen" target="_blank"><img style={{width: "50px", height:"50px", border:"none"}} src={Image4} alt="Github Repository Link" /></a>
                         </p>
                         
@@ -41,7 +41,7 @@ const ProjectAdd: React.FC = () => {
                 </div>
                 <div className="row" style={{textAlign:'center', paddingBottom:'15px'}}>
                     <div className="col-md">
-                            <p><span>Login Page</span>
+                            <p><span>Login Page </span>
                             <a href="https://github.com/Amauri817/KrazyKabanBoardUltra" target="_blank"><img style={{width: "50px", height:"50px", border:"none"}} src={Image4} alt="Github Repository Link" /></a>
                             </p>
                             <a href="https://thekrazykabanboardultra.onrender.com/" target="blank"><img src={Image3} alt="Image of a login page" /></a>

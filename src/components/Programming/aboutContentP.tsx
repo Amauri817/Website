@@ -8,18 +8,22 @@ const AboutAdd: React.FC = () => {
                 <h3>About Me</h3>
                 <p>
                     <h4>A little about me</h4>
-                    I began my coding journy in highschool when I first discovered the world of programming
-                    when I started my first ever computer class. Since then, I have continually expanded my
-                    skill set and taken on various projects that have challenged me to grow as a developer.
-                </p>
-                <p>
-                    <h4>What am I up to?</h4>
-                    After completing my degree in Media and Information with a focus of Games and Interactive Media
-                    from Michigan State University, I realized that I haven't delved deep enoough into the world of 
-                    developers. Leading me to currently, finishing a certificate in Full-Stack Development provided 
-                    through MSU.
-                </p>
+                    <p>
+                    Hi, I'm a passionate Full-Stack Developer with a strong background in Typescrip, React, JavaScript,
+                    and Node.js. I am currently working as a consultant at Xfinity, I specialize in building scalable, effiecient,
+                    and user-friendly applications. With the experience I have in Restful API development, SQL databases, mongoDB, 
+                    and AI integrations, I found a new love for solving complex problems and optimizing workflows.
+                    </p>
 
+                    <p>
+                    I’m always eager to learn new technologies and enhance my skills in software architecture and automation. 
+                    Whether it’s developing a seamless front-end experience or designing robust back-end systems, I focus on 
+                    creating high-quality, maintainable solutions.
+                    </p>
+
+                    Feel welcomed the explore my <a href="https://github.com/Amauri817?tab=repositories" target="_blank">GitHub</a> or
+                    connect via <a href="https://www.linkedin.com/in/amauri-brown/" target="_blank">LinkedIn</a>
+                </p>
             </div>
         </body>
     )
