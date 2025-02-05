@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import NavTabP from "../components/Programming/navTabP";
-import Pcontent from "../components/Design/programBody";
+import Pcontent from "../components/Programming/programBody";
 import AboutAdd from "../components/Programming/aboutContentP";
 import CertAdd from "../components/Programming/certificationContent";
 import FooterContent from "../components/Design/footer";

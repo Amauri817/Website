@@ -9,7 +9,7 @@ const AboutAdd: React.FC = () => {
                 <p>
                     <h4>A little about me</h4>
                     <p>
-                    Hi, I'm a passionate Full-Stack Developer with a strong background in Typescrip, React, JavaScript,
+                    Hi, I'm a passionate Full-Stack Developer with a strong background in Typescript, React, JavaScript,
                     and Node.js. I am currently working as a consultant at Xfinity, I specialize in building scalable, effiecient,
                     and user-friendly applications. With the experience I have in Restful API development, SQL databases, mongoDB, 
                     and AI integrations, I found a new love for solving complex problems and optimizing workflows.
