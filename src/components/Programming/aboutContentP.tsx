@@ -3,20 +3,20 @@ import React from "react";
 const AboutAdd: React.FC = () => {
 
     return (
-        <body style={{paddingTop:'50px', marginTop:'100px'}} id="about" >
+        <body id="about" >
             <div className="container">
                 <h3>About Me</h3>
                 <p>
-                    <h4>A little about me</h4>
                     <p>
-                    Hi, I'm a passionate Full-Stack Developer with a strong background in Typescript, React, JavaScript,
+                    I'm a passionate Full-Stack Developer with a strong background in Typescript, React, JavaScript,
                     and Node.js. I am currently working as a consultant at Xfinity, I specialize in building scalable, effiecient,
                     and user-friendly applications. With the experience I have in Restful API development, SQL databases, mongoDB, 
                     and AI integrations, I found a new love for solving complex problems and optimizing workflows.
                     </p>
 
                     <p>
-                    I’m always eager to learn new technologies and enhance my skills in software architecture and automation. 
+                    Always eager to learn new technologies and enhance my skills in software architecture and automation, I constantly
+                    drive myself to gain more knowledge and stay updated on the most current best practices. 
                     Whether it’s developing a seamless front-end experience or designing robust back-end systems, I focus on 
                     creating high-quality, maintainable solutions.
                     </p>

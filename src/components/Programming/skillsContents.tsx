@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
   );
 
   return (
-    <body style={{paddingTop:'50px', marginTop:'100px'}} id="skills">
+    <body  id="skills">
         <div className="container">
             <div>
                 <h3>Skills</h3>

@@ -7,7 +7,7 @@ import Image4 from '../../assets/github-mark-white.png'
 const ProjectAdd: React.FC = () => {
     
     return (
-        <body style={{paddingTop:'50px', marginTop:'100px'}} id="projects">
+        <body id="projects">
             <div className="container">
                 <h3>Personal Projects</h3>
                 <p style={{textAlign:'center'}}>

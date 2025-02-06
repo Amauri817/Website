@@ -4,7 +4,7 @@ import Img from "../../../public/Certificate.png"
 const CertAdd: React.FC = () => {
     
     return (
-        <body style={{paddingTop:'500px'}} id="certifications">
+        <body id="certifications">
             <div className="container">
                 <h3>Certificate</h3>
                 <h5 style={{textAlign:'center'}}>Michigan State University(Full-Stack Development)</h5>

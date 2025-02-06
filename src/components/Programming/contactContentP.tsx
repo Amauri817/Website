@@ -3,7 +3,7 @@ import React from "react";
 const ContactAdd: React.FC = () => {
     
     return (
-        <body style={{paddingTop:'50px', marginTop:'100px', marginBottom:'-40px'}} id="contact">
+        <body style={{paddingBottom:'42%'}}  id="contact">
           <div className="container">
             <h3>Contacts</h3>
             <h2 id="contacts"> 
@@ -11,7 +11,7 @@ const ContactAdd: React.FC = () => {
                 <a href="mailto:brownamauri@icloud.com">✉</a>
                 <a href="https://github.com/Amauri817" target="_blank">GitHub</a>
             </h2>
-        </div>         
+            </div>         
         </body>
 
     )

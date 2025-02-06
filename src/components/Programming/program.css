@@ -1,0 +1,10 @@
+#hello, #certifications, #about, #skills, #projects {
+    background-color: rgb(24, 24, 24);
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+    padding-bottom: 50%;
+  }

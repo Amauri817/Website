@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react';
+import '../components/Programming/program.css'
 import NavTabP from "../components/Programming/navTabP";
 import Pcontent from "../components/Programming/programBody";
 import AboutAdd from "../components/Programming/aboutContentP";
 import CertAdd from "../components/Programming/certificationContent";
-import FooterContent from "../components/Design/footer";
+import FooterContent from "../components/Programming/footer";
 import ProjectAdd from "../components/Programming/projectsContentP";
 import ContactAdd from "../components/Programming/contactContentP";
 import Skills from "../components/Programming/skillsContents";

@@ -3,7 +3,7 @@ import React from "react";
 const Pcontent: React.FC = () => {
 
     return (
-        <body style={{paddingTop:'50px', marginTop:'100px'}} id="hello">
+        <body id="hello">
             <div className="container" >
                 <h3>
                     Welcome to my Portfolio!
