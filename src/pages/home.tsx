@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   
           <div className="content">
             <article className="left">
-            <h1><Link to="/programPage">Programming</Link></h1>
+            <h1><Link to="/programPage">Web Design</Link></h1>
             </article>
             <article className="right">
                 <h1><Link to="/designPage">Technical Design</Link></h1>
